@@ -2151,3 +2151,18 @@
 			}
 
 		}
+
+		/*Custom styles*/
+#logo
+{
+	width: 400px;
+	height: 60px;
+	background: url("images/logo.png");
+}
+
+#logo img
+{
+	margin-top: 10px;
+ margin-left: 10px;
+
+}
