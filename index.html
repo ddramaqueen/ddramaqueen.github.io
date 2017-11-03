@@ -10,6 +10,10 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/text.css" />
+
+
+				<link rel="stylesheet" href="assets/js/text.js" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
@@ -39,7 +43,18 @@
 			<section id="intro" class="main style1 dark fullscreen">
 				<div class="content">
 
-										<h3>Gonna be an angel for those who respect me. Gonna be a devil for those who talk back of me</h3>
+
+
+																	<div id="page_wrap">
+
+																			<div class="banner">
+																					<div class="typed_wrap">
+																									<h3> <span class="typed"></span</h3>
+																					</div>
+																			</div>
+												</div>
+
+
 					<footer>
 						<a href="#one" class="button style2 down">More</a>
 					</footer>
@@ -152,8 +167,83 @@
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
+
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+
+			<script src="assets/js/text.js"></script>
+
+			<script>
+
+
+
+
+			$(function(){
+				$(".typed").typed({
+					strings: ["Gonna be an angel for those who respect me. Gonna be a devil for those who talk back of me."],
+					// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
+					stringsElement: null,
+					// typing speed
+					typeSpeed: 30,
+					// time before typing starts
+					startDelay: 1200,
+					// backspacing speed
+					backSpeed: 20,
+					// time before backspacing
+					backDelay: 500,
+					// loop
+					loop: true,
+					// false = infinite
+					loopCount: 1000,
+					// show cursor
+					showCursor: false,
+					// character for cursor
+					cursorChar: "|",
+					// attribute to type (null == text)
+					attr: null,
+					// either html or text
+					contentType: 'html',
+					// call when done callback function
+					callback: function() {},
+					// starting callback function before each string
+					preStringTyped: function() {},
+					//callback for every typed string
+					onStringTyped: function() {},
+					// callback for reset
+					resetCallback: function() {}
+				});
+			});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			</script>
 
 	</body>
 </html>
